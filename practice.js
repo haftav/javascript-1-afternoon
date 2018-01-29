@@ -118,7 +118,11 @@ alert(newMyName);
 */
 
 //Code Here
-
+function outerFn(){
+  return function() {
+    return 'Tav Hafner';
+  }
+}
 
 
 /*
@@ -126,7 +130,7 @@ alert(newMyName);
 */
 
 //Code Here
-
+var innerFn = outerFn();
 
 
 /* 
@@ -134,3 +138,4 @@ alert(newMyName);
 */
 
 // Code Here
+innerFn;
