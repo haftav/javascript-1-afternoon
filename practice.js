@@ -18,6 +18,9 @@ var name = 'Tyler';
 */
 
 //Code Here
+function isTyler(name) {
+  return (name === 'Tyler' ? true : false);
+}
 
 
 
@@ -28,7 +31,10 @@ var name = 'Tyler';
 */
 
 //Code Here
-
+function getName() {
+  name = prompt() 
+  return name;
+}
 
 
 ////////// PROBLEM 3 //////////
@@ -41,6 +47,9 @@ var name = 'Tyler';
 */
 
 //Code Here
+function welcome() {
+  alert("Welcome, " + getName());
+}
 
 
 
@@ -51,7 +60,9 @@ var name = 'Tyler';
 */
 
 //Answer Here
-
+/* A parameter is a variable local to a function that you create in the function declaration.
+An argument is a variable you pass into the function in place of a parameter when
+invoking a function. */
 
 
 ////////// PROBLEM 5 //////////
@@ -61,7 +72,11 @@ var name = 'Tyler';
 */
 
 //Answer Here
+/* Falsy values: "", 0, false, null, undefined, NaN
 
+To check if something is false, type !! in front of the value. If it is false, 
+it will evaluate to false. 
+*/
 
 
 ////////// PROBLEM 6 //////////
@@ -72,6 +87,9 @@ var name = 'Tyler';
 
 //Code Here
   
+function myName() {
+  return 'Tav Hafner';
+}
 
 
 /*
@@ -79,6 +97,9 @@ var name = 'Tyler';
 */
 
 //Code Here
+var newMyName = function() {
+  return 'Tav Hafner';
+}
 
 
 
@@ -87,7 +108,7 @@ var name = 'Tyler';
 */
 
 // Code Here
-
+alert(newMyName);
 
 
 ////////// PROBLEM 7 //////////
